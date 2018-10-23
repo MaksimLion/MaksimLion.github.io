@@ -1,0 +1,29 @@
+.footer__title{
+    text-align: center;
+    font-size: 12px;
+    color: #b1bac1;
+    transition: color 0.5s linear;
+    margin-top: 5%;
+}
+.footer__title:hover{
+    color: #e4ae58;
+}
+.footer__list{
+    padding: 0;
+    display: inline-block;
+    width: 50%;
+    margin-left: 39%;
+
+}
+.footer__social{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+.footer__social a{
+    color: #888;
+    transition: all 0.6s linear;
+}
+.footer__social a:hover{
+    color: #161616;
+}

@@ -1,0 +1,28 @@
+.main__card-blockquote {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/quotes-bg.jpg');
+    background-size: cover;
+}
+.blockquote__icon{
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+}
+.blockquote__text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.blockquote__small-text{
+    color: #b1bac1;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+
+}

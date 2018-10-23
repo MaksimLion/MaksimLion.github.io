@@ -1,0 +1,79 @@
+
+.header__element-cover{
+    display: inline-block;
+
+}
+
+.cover__element-logo a {
+    position: absolute;
+    left: 10%;
+    text-shadow: white;
+    font-weight: bold;
+    color: #161616;
+    text-shadow: 1px 1px #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    transition: all 0.5s linear;
+
+
+}
+.cover__element-logo a:hover{
+    font-size:50px;
+}
+.header__element-navigation{
+    display: inline-block;
+    background-color: #f0e2d7;
+}
+.navigation__main-item{
+    margin-left: 10%;
+}
+.navigation__item{
+    margin-left: 2%;
+}
+.navigation__item a{
+    color: #6786a5;
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+.navigation__item a:hover{
+    color: #e4ae58;
+}
+.text-block__item-title{
+    margin-top: 20%;
+    text-align: left;
+    margin-left: 5%;
+    color: #b1bac1;
+    font-weight: normal;
+}
+.text-block__item-main-title{
+
+    margin-left: 5%;
+    font-weight: normal;
+}
+.text-block__item-text{
+    margin-left: 5%;
+}
+.discription__element-button{
+    margin-left: 5%;
+    margin-top: 10%;
+    text-transform: uppercase;
+    border-radius: 14px;
+    border-color: #161616;
+    background: none;
+    padding:10px 30px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.4s linear, transform 0.3s linear;
+}
+.discription__element-button:hover{
+    background-color: #e4ae58;
+}
+.discription__element-button:active{
+    transform: rotateX(360deg);
+}
+.navigation__item{
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+}

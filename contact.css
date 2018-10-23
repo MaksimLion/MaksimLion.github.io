@@ -1,0 +1,80 @@
+.main__card-contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-block__input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #e7aa57;
+    background:none;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 80%;
+    color: white;
+}
+.form-block__input, .discription__element-button:focus,.form-block__button:focus{
+    outline: none;
+}
+.form-block__input::placeholder{
+    color: white;
+}
+.contact-block__form{
+    background-color: #e9714c;
+}
+.contact-block__information{
+    background-color: black;
+    color: white;
+}
+.information-block__title,.information-block__list,.information-block__contact,.information-block__text{
+    margin-left: 5%;
+}
+.information-block__title{
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.information-block__contact{
+    font-weight: normal;
+}
+.information-block__text{
+    color: dimgrey;
+}
+.information-block__list{
+    padding: 0;
+}
+.list-block__item{
+    list-style-type: none;
+    color: dimgrey;
+    margin-top: 2%;
+    transition: all 0.4s linear ;
+}
+.list-block__item:hover{
+    color: #e4ae58 ;
+}
+.form-block__legend{
+    margin-top: 5%;
+    font-size: 30px;
+    color: white;
+    margin-left: 5%;
+}
+.form-block__text{
+    color: white;
+    margin-left: 5%;
+}
+.form-block__button{
+    margin-left: 5%;
+    margin-top: 10%;
+    text-transform: uppercase;
+    border-radius: 14px;
+    border: none;
+    background: white;
+    padding:10px 100px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.4s linear;
+}
+.form-block__button:hover{
+    background-color:#e4ae58;
+}
+.form-block__button:active{
+    transform: rotateX(360deg);
+}

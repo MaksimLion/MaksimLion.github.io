@@ -1,0 +1,50 @@
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    
+    .S{
+        width:50%
+    }
+    .M,.XL{
+        width: 100%;
+    }
+
+    img{
+        height: 100%;
+    }
+    .my-experience__picture{
+        height: 300px;
+
+    }
+    .my-education__picture{
+        height: 300px;
+
+    }
+    .discription__element-button{
+        margin-bottom: 5%;
+    }
+    .form-block__button{
+        margin-bottom: 5%;
+    }
+    #html5{
+        margin-bottom: 20%;
+    }
+
+
+
+    .navigation__item{
+        display: block;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:350px){
+    label[for="html5"],label[for="front"],label[for="back"]{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:1920px) and (max-width:4000px){
+    .container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

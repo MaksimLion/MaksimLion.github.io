@@ -1,0 +1,35 @@
+.main__card-tile{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main__card-tile h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+.main__card-tile p{
+    text-align: center;
+}
+.tile-content{
+    padding-top:10px;
+}
+.tile-block__item-coding,.tile-block__item-interface,.tile-block__item-media,.tile-block__item-mobile-app{
+    display: inline-block;
+    color: white;
+}
+.tile-block__item-interface{
+    background-color: #e4ae58;
+}
+.tile-block__item-media{
+    background-color: #e9714c;
+}
+.tile-block__item-mobile-app{
+    background-color: #161616;
+}
+.tile-block__item-coding{
+    color: #888;
+}
+.tile-content__icon{
+    font-size: 30px;
+    margin-left: 46%;
+    margin-top: 10%;
+}

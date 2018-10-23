@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header,.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+img{
+    height: 100%;
+}

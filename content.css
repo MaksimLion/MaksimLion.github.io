@@ -1,0 +1,104 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+
+
+.main__card-about-auctor, .main__card-small-picture{
+    display: inline-block;
+}
+.low-priority-discription__title,.low-priority-discription__small-title, .low-priority-discription__text{
+    margin-left: 5%;
+}
+.low-priority-discription__small-title{
+    color: #f2cc83;
+}
+.main__card-about-skills{
+    display: inline-block;
+    background-color: #e4ae58;
+}
+.my-skills__title,.my-skills__small-title{
+    color: white;
+    margin-left: 5%;
+}
+.my-skills__title{
+    text-transform: capitalize;
+}
+.my-skills__label{
+    margin-left: 5%;
+    color: white;
+    margin-top: 3%;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align:center;
+}
+.my-skills__progress{
+    display: block;
+    margin-left: 5%;
+    height: 2%;
+    background-color: white;
+    color: black;
+    margin-bottom: 5%;
+    width: 60%;
+}
+#html5{
+    margin-bottom: 5%;
+}
+
+.main__card-my-experince,.main__card-my-education{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-experience__text{
+    background-color: #e9714c;
+    display: inline-block;
+}
+.text-block__title{
+    color: white;
+    margin-left: 5%;
+    text-transform: capitalize;
+}
+.text-block__small-title{
+    color:white;
+    margin-left: 5%;
+
+}
+.text-block__icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 1%;
+    display: inline-block;
+
+
+}
+.text-block__name{
+    text-transform: capitalize;
+    color: white;
+}
+.text-block__text{
+    color: white;
+    margin-left: 10%;
+}
+.my-education__text{
+    background-color: #e4ae58;
+    display: inline-block;
+}
+.my-experience__text, .my-experience__picture, .my-education__text, .my-experience__picture{
+    display: inline-block;
+
+}
+.my-experience__picture{
+    background-image: url("img/experience-img.jpg");
+    height: 100%;
+    background-size: cover;
+    position:static;
+}
+.my-education__picture{
+    background-image: url("img/education-img.jpg");
+    height: 100%;
+    background-size: cover;
+    position:static;
+
+}

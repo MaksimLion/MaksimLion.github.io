@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <link rel="stylesheet" href="base.css">
+
+    <link rel="stylesheet" href="size.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="tile.css">
+    <link rel="stylesheet" href="blockquote.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+    <div class="container">
+        <header class="header">
+            <div class="header__element-cover cover XL ">
+                <div class="cover__element-logo">
+                    <a href="index.html">stimulus</a>
+                </div>
+                <div class="cover__element-image">
+                    <img src="img/main-image.png"  alt="main" width="100%" height="100%">
+                </div>
+            </div>
+            <div class="header__element-navigation navigation XL">
+                <ul class = "navigation__main-item">
+                    <li class = navigation__item><a href="index.html">home</a></li>
+                    <li class = navigation__item><a href="#about">about me</a></li>
+                    <li class = navigation__item><a href="#exp">experiences</a></li>
+                    <li class = navigation__item><a href="#">testimonial</a></li>
+                    <li class = navigation__item><a href="#contact">contact</a></li>
+                </ul>
+                <div class="discription">
+                    <div class="discription__element-text text-block">
+                        <h6 class="text-block__item-title">welcome to my site</h6>
+                        <h1 class="text-block__item-main-title">Hello, i am Stimulus currently based in New York city.</h1>
+                        <p class="text-block__item-text">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictu m purus. Vestibulum non pellentesque felis,sed dignissim urna. Vestibulum id accumsan quam.
+                        </p>
+                    </div>
+                    <button class="discription__element-button">get started</button>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <div class="main__card-about-auctor card M">
+                <div class="card__element low-priority-discription" id="about">
+                    <h1 class="low-priority-discription__title">Donec auctor</h1>
+                    <h6 class="low-priority-discription__small-title">Sed vulputare vitae quis bibendum</h6>
+                    <p class="low-priority-discription__text">Phasellus vuputate tellus nec tortor varius elementum. Curabitur at pulvinar arite.
+                    Duis dui urna,faucibus eget felis eu,iaculis congue sem.
+                    Mauris convallis eros massa.</p>
+                    <p class="low-priority-discription__text">Quisque viverra iaculis aliquam. Etiam volutpat,justo non
+                    aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+                </div>
+            </div>
+            <div class="main__card-small-picture card S">
+                <img src="img/small-picture.png" alt="man on chair" width="100%">
+            </div>
+            <div class="main__card-about-skills my-skills S">
+                <h1 class="my-skills__title">my skills</h1>
+                <h4 class="my-skills__small-title">PhotoShop. HTML CSS JS. Web Design</h4>
+                <label for="front" class="my-skills__label">frontend design</label>
+                <progress value="5" max="100" class="my-skills__progress" id="front"></progress>
+                <label for="back" class="my-skills__label">Backend processing</label>
+                <progress value="5" max="100" class="my-skills__progress" id="back"></progress>
+                <label for="html5" class="my-skills__label">html5 & css3</label>
+                <progress value="5" max="100" class="my-skills__progress" id="html5"></progress>
+                
+            </div>
+
+            <div class="main__card-tile tile-block L" id="exp" >
+                <div class="tile-block__item-interface tile-content S">
+                    <i class="fas fa-desktop tile-content__icon"></i>
+                    <h3 class="tile-content__title">interface design</h3>
+                    <p class="tile-content__text">Phasellus vulputate tellus nec tortor
+                    varius elementum. Curabitur at pulvinar ante</p>
+                </div>
+                <div class="tile-block__item-media tile-content S">
+                    <i class="fab fa-telegram-plane tile-content__icon"></i>
+                    <h3 class="tile-content__title">media strategy</h3>
+                    <p class="tile-content__text">Curabitue at pulvinar ante. Duis dui urna, faucuibus eget,felis eu iaculis congue sem</p>
+                </div>
+                <div class="tile-block__item-mobile-app tile-content S">
+                    <i class="fas fa-calculator tile-content__icon"></i>
+                    <h3 class="tile-content__title">mobile app</h3>
+                    <p class="tile-content__text">Mauris convallis eros massa, vitae euismod arcu
+                    tempus ut. Quisque viverra iaculis.</p>
+                </div>
+                <div class="tile-block__item-coding tile-content S">
+                    <i class="fab fa-html5 tile-content__icon"></i>
+                    <h3 class="tile-content__title">Coding</h3>
+                    <p class="tile-content__text">Mauris convallis eros massa, vitae euismod arcu
+                        tempus ut. Quisque viverra iaculis</p>
+                </div>
+            </div>
+            <div class="main__card-my-experince my-experience L">
+                <div class="my-experience__picture M">
+
+                </div>
+                <div class="my-experience__text text-block M">
+                    <h1 class="text-block__title">my expiriences</h1>
+                    <h4 class="text-block__small-title">Previous companies and my tasks</h4>
+                    <i class="fas fa-desktop text-block__icon"></i><span class="text-block__name">graphic designer</span><data> 2014 Jul - 2015 Sep</data>
+                    <p class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <i class="fas fa-desktop text-block__icon"></i><span class="text-block__name">web designer</span><data> 2015 Oct - 2017 Jan</data>
+                    <p class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="main__card-my-education my-education L">
+                <div class="my-education__text text-block M">
+                    <h1 class="text-block__title">my education</h1>
+                    <h4 class="text-block__small-title">In cursus orci non ipsum gravida dignissim.</h4>
+                    <i class="fas fa-desktop text-block__icon"></i><span class="text-block__name">master in design</span><data> 2012 Jan - 2014 May</data>
+                    <p class="text-block__text">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissimeu in neque.</p>
+
+                    <i class="fas fa-desktop text-block__icon"></i><span class="text-block__name">Bachelor of arts</span><data> 2008 May - 2011 Dec</data>
+                    <p class="text-block__text">Orci varius natoque penatibus et magnis dis parturiemt montes,nascetur ridiculus mus.</p>
+
+                </div>
+                <div class="my-education__picture M">
+
+                </div>
+            </div>
+            <div class="main__card-blockquote blockquote L">
+                <i class="fas fa-star blockquote__icon"></i>
+                <h1 class="blockquote__text">Proin lobortis eu diam ef facilisis. Fusce nisi nibh, molestie in vestibulum quis,auctor et orci.</h1>
+                <p class="blockquote__small-text">Carabitur at pulvinar ante. Duis dui urna, faucibuseget felis eu, iaculis congue.</p>
+            </div> 
+            <div class="main__card-contact contact-block L">
+                <div class="contact-block__form form-block XL">
+                    <form>
+                        <legend class="form-block__legend">Say hello</legend>
+                        <p class="form-block__text">Integer ut consecteur est. In cursus orci non ipsum gravida dignissim</p>
+                        <input type="text" placeholder="Your Name" class="form-block__input">
+                        <input type="email" placeholder="Your email" class="form-block__input">
+                        <textarea name="field" id="field" cols="30" rows="10" placeholder="Write your message" class="form-block__input" ></textarea>
+                        <button class="form-block__button">Send</button>
+                    </form>
+                </div>
+                <div class="contact-block__picture S" id="contact">
+                    <img src="img/man-with-laptop.jpg" alt="" width="100%">
+                </div>
+                <div class="contact-block__information information-block S">
+                    <h1 class="information-block__title">visit my office</h1>
+                    <p class="information-block__text">456 New Street 22000, New York City, USA</p>
+                    <h1 class="information-block__contact">Contact</h1>
+                    <ul class="information-block__list list-block">
+                        <li class="list-block__item"> <i class="fas fa-phone"></i> 01-0110-0220</li>
+                        <li class="list-block__item"> <i class="far fa-envelope"></i> hello@company.co</li>
+                        <li class="list-block__item"><i class="fas fa-globe-asia"></i> company.co</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <h1 class = "footer__title">copyright 2016 your company design: templatemo</h1>
+            <ul class="footer__list">
+                <li class="footer__social"><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li class="footer__social"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li class="footer__social"><a href="https://google.com"><i class="fab fa-google-plus-g"></i></a></li>
+                <li class="footer__social"><a href="https://dribble.com"><i class="fas fa-basketball-ball"></i></a></li>
+                <li class="footer__social"><a href="#"> <i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
