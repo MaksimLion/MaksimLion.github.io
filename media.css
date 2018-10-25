@@ -1,9 +1,9 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px){
     
-    .S{
+    [class*="--Size-S"]{
         width:50%
     }
-    .M,.XL{
+    [class*="--Size-M"],[class*="--Size-XL"]{
         width: 100%;
     }
 
@@ -35,7 +35,7 @@
     }
 }
 @media only screen and (min-width:320px) and (max-width:350px){
-    label[for="html5"],label[for="front"],label[for="back"]{
+    .my-skills__label{
         font-size: 10px;
     }
 }

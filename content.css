@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6{
 .main__card-about-skills{
     display: inline-block;
     background-color: #e4ae58;
+    padding-bottom: 5px;
 }
 .my-skills__title,.my-skills__small-title{
     color: white;

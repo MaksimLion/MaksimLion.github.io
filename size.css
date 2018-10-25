@@ -1,12 +1,12 @@
-.S{
+[class*="--Size-S"]{
     width: 25%;
 }
-.M{
+[class*="--Size-M"]{
     width: 50%;
 }
-.L{
+[class*="--Size-L"]{
     width: 100%;
 }
-.XL{
+[class*="--Size-XL"]{
     width: 50%;
 }
