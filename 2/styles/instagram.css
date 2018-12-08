@@ -1,0 +1,20 @@
+.instagram{
+    background-image: url('../img/background-1462755_1920.jpg');
+    background-size: cover;
+    height: auto;
+}
+
+.inst-logo{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+}
+
+
+

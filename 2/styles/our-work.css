@@ -1,0 +1,35 @@
+.our-work{
+    padding: 30px 0;
+    background-image: url('../img/bokeh-2430039_960_720.jpg');
+    background-size:cover;
+    color:white;
+    filter: blur();
+}
+
+.our-work h1{
+    text-align: center;
+   
+}
+
+.benefit-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.card{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image, .description{
+    width: 50%;
+}
+
+
+
+

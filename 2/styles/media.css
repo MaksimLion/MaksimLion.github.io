@@ -1,24 +1,81 @@
-@media screen and (min-width:320px) and (max-width:1024) {
+@media screen and (min-width:320px) and (max-width:1024px) {
     
     .cover{
         width:100%;
+        padding-bottom: 3%;
     }
 
     .logo{
+        padding-top:30px;
         width: 100%;
+        transform: rotate(0);
     }
 
     .phone{
-        width: 100%
+        margin-top: 5%;
+        width: 100%;
+        text-align: center;
     }
 
     .nav{
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav li{
+        text-align: center;
     }
 
     .try-block{
         width: 100%;
     }
 
+    .info{
+        width:100%;
+        padding-bottom: 3%;
+    }
+
+    .info h1, .info h2{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+        padding: 3%;
+    }
+
+    .try-btn {
+        background: none;
+        padding: 5px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .benefit-card{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    
+    .instagram{
+        height: auto;
+    }
+
+    .text{
+        font-size: 30px;
+    }
 
 }
