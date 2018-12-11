@@ -1,0 +1,32 @@
+.costs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.costs-item{
+    width: 20%;
+}
+
+.costs div h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cheap{
+    background-color: gray;
+}
+
+.middle-cheap{
+    background-color: greenyellow;
+}
+
+.expensive{
+    background-color: orange;
+}
+
+.the-most-expensive{
+    background-color: red;
+}
+
+

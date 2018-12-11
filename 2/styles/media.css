@@ -63,12 +63,16 @@
 
     .image{
         width: 100%;
+        margin: 0 auto;
     }
 
     .description{
         width: 100%;
     }
 
+    .costs div{
+        width: 100%;
+    }
     
     .instagram{
         height: auto;
@@ -77,5 +81,24 @@
     .text{
         font-size: 30px;
     }
+
+    .customer{
+        width: 100%;
+    }
+
+    .form form input[type="text"],.form form input[type="email"]{
+        width: 90%;
+        font-size: 20px;
+    } 
+
+    .form .form input[type="text"]::placeholder,.form form input[type="email"]::placeholder{
+        font-size: 20px;
+    }
+
+    .submit-btn{
+        width: 80%;
+    }
+
+
 
 }
