@@ -1,0 +1,26 @@
+footer{
+    background-color: black;
+    opacity: 0.8;
+}
+
+footer h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size:40px;
+    color:white;
+}
+
+footer h6{
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+footer h6 a{
+    text-decoration: none;
+    color:white;
+    font-family:'Cormorant Garamond', serif;
+    font-size:30px;
+}

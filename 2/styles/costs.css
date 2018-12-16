@@ -1,32 +1,26 @@
 .costs{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap;
+    background-color: black;
 }
 
 .costs-item{
+    color: white;
     width: 20%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(45deg, #f19a63 1%, #d3306f 24%, #d3306f 39%, #a43a96 100%);
 }
 
 .costs div h3{
     text-transform: uppercase;
     text-align: center;
 }
-
-.cheap{
-    background-color: gray;
-}
-
-.middle-cheap{
-    background-color: greenyellow;
-}
-
-.expensive{
-    background-color: orange;
-}
-
-.the-most-expensive{
-    background-color: red;
-}
-
-

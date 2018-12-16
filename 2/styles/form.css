@@ -1,9 +1,11 @@
+
 label{
     display: block;
     text-align: center;
     margin-bottom: 10px;
 }
 .form{
+    font-family:'Cormorant Garamond', serif;
     background: linear-gradient(to bottom, #e71171 0%, #cd1165 100%);
 }
 .form form{

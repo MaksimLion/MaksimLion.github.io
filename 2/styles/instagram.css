@@ -2,6 +2,7 @@
     background-image: url('../img/background-1462755_1920.jpg');
     background-size: cover;
     height: auto;
+    font-family: 'PT Mono', monospace;
 }
 
 .inst-logo{
