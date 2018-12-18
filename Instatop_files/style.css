@@ -82,9 +82,8 @@ input:active, button:active, select:active {
 
 .header {
     background: #f19a63; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #f19a63 1%, #d3306f 24%, #d3306f 39%, #a43a96 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #f19a63 1%, #d3306f 24%, #d3306f 39%, #a43a96 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #f19a63 1%, #d3306f 24%, #d3306f 39%, #a43a96 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-image: url('./zadnik-1.jpg');
+    background-size:cover;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f19a63', endColorstr='#a43a96', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     overflow: hidden;
     min-height: 100vh;
@@ -149,10 +148,10 @@ input:active, button:active, select:active {
 
 .header__logo {
     /*width: 81px;*/
-    height: 81px;
+    height: 60px;
     font-family: "Clear Sans Thin", sans-serif;
     /*writing-mode: vertical-lr;*/
-    font-size: 60px;
+    font-size: 40px;
     color: #2b2b2b;
     background: #fff;
     padding: 0 30px;
@@ -192,7 +191,7 @@ input:active, button:active, select:active {
 .header__menu-item {
     font-size: 24px;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     margin-bottom: 10px;
     position: relative;
     padding-right: 15px;
@@ -492,6 +491,7 @@ input:active, button:active, select:active {
 }
 
 .prices__row {
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -1127,15 +1127,16 @@ input:active, button:active, select:active {
     -webkit-user-drag: none;
     opacity: .5;
     z-index: 2;
-    background: url("img/swiper-arrow.png") no-repeat;
+    transform: rotate(180deg);
+    background: url("./forward.png") no-repeat;
     width: 48px;
     height: 48px;
 }
 
 .clients__swipe-arrow--right {
-    transform: rotate(180deg);
     left: auto;
     right: 0;
+    transform: rotate(360deg);
 }
 
 /* clients */
@@ -1223,10 +1224,11 @@ input:active, button:active, select:active {
     background: -webkit-linear-gradient(top, #e71171 0%, #cd1165 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #e71171 0%, #cd1165 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 45px 0 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contacts__header {
-    font-family: 'Clear Sans Light', sans-serif;
+    /* font-family: 'Clear Sans Light', sans-serif; */
     text-align: center;
     font-size: 48px;
     font-weight: normal;
@@ -1259,7 +1261,7 @@ input:active, button:active, select:active {
 }
 
 .contacts__input {
-    font-family: "Clear Sans Thin", sans-serif;
+    /* font-family: "Clear Sans Thin", sans-serif; */
     font-size: 30px;
     color: #fff;
     background: transparent;
@@ -1286,7 +1288,7 @@ input:active, button:active, select:active {
 }
 
 .contacts__button {
-    font-family: 'Clear Sans Light', sans-serif;
+    /* font-family: 'Clear Sans Light', sans-serif; */
     font-size: 18px;
     background: #fff;
     color: #adadad;
