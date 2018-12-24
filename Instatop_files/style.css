@@ -138,11 +138,11 @@ input:active, button:active, select:active {
     transform: translateY(-50%);
     margin: 0 auto;
     padding: 0 0 75px 15px;
-    color: #f6f6f6;
+    color:black;
     font-size: 22px;
     word-wrap: break-word;
     letter-spacing: 15px;
-    background: url("img/scroll-arrow.png") no-repeat center 100%;
+    /* background: url("img/scroll-arrow.png") no-repeat center 100%; */
     cursor: pointer;
 }
 
@@ -504,7 +504,7 @@ input:active, button:active, select:active {
 }
 
 .prices__item-wrapper:nth-child(2n) {
-    padding-top: 20px;
+    padding-top: 0;
     z-index: 10;
 }
 
@@ -1350,7 +1350,7 @@ input:active, button:active, select:active {
 }
 
 .footer__title {
-    text-align: justify;
+    text-align: center;
     width: 305px;
     margin-bottom: 10px;
 }
